@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_a"
+            android:icon="@drawable/ic_home"
+            android:title="@string/m_home" />
+
+        <item
+            android:id="@+id/nav_b"
+            android:icon="@drawable/ic_contact"
+            android:title="@string/m_contact" />
+
+
+        <item
+            android:id="@+id/nav_c"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/m_settings" />
+
+        <item
+            android:id="@+id/nav_d"
+            android:icon="@drawable/ic_bell"
+            android:title="@string/m_notification" />
+
+
+        <item
+            android:id="@+id/nav_e"
+            android:icon="@drawable/ic_share"
+            android:title="@string/m_share" />
+
+
+    </group>
+</menu>
